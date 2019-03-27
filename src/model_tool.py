@@ -163,7 +163,7 @@ def train_lightgbm_model(X_train, Y_train, feature_name, model_param,test_size=0
         logger.info("lightgbm model train auc:" + str(train_acc) + " test auc:" + str(test_acc))
         return gbm,evals_result
     except:
-        logger.error("lightgbm model train fail.")
+        logger.error("light/gbm model train fail.")
         return False,False
 
 

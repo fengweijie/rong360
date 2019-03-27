@@ -1,0 +1,15 @@
+#coding:utf-8
+# 项目简介
+  本代码是融360贷款数据代码,其中数据源来之融360平台数据
+  比赛地址:http://www.pkbigdata.com/common/cmpt/用户贷款风险预测_竞赛信息.html
+  项目数据:
+         链接:https://pan.baidu.com/s/1aEUdJwFqplgz2my90Xcs_Q 提取码:1r5n
+
+# 项目问题
+   融360与平台上的金融机构合作，提供了近7万贷款用户的基本身份信息、消费行为、
+   银行还款等数据信息，需要参赛者以此建立准确的风险控制模型，来预测用户是否会逾期还款。
+
+# 项目模型
+  lightgbm
+  thundergbm:
+  由于这个包比较新,因此需要去拉去github上的代码:pip install git+https://github.com/jkbr/httpie.git
