@@ -1,0 +1,38 @@
+#以#开头表示注释
+
+
+# 忽略所有cache中的npz文件
+*.npz
+
+# 忽略所有的.png文件
+#*.png
+
+# 忽略所有.txt文件
+*.txt
+
+# 忽略所有.data文件
+*.data
+*.test
+*.names
+
+# 忽略所有.csv 文件
+*.csv
+
+# 忽略收.zip 文件
+*.zip
+
+# 忽略所有.gv文件
+
+*.gv
+
+#忽略所有.pdf文件
+*.pdf
+
+#忽略所有.idea文件夹的内容
+.idea/
+
+# 忽略python 中pyc文件
+*.pyc
+
+# 忽略.pyib
+*.ipynb
